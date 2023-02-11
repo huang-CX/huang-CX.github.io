@@ -1,0 +1,10 @@
+@article{huang2018novel,
+  title={A novel image dehazing algorithm based on dual-tree complex wavelet transform},
+  author={Huang, Changxin and Li, Wei and Han, Songchen and Liang, Binbin and Cheng, Peng},
+  journal={KSII Transactions on Internet and Information Systems (TIIS)},
+  volume={12},
+  number={10},
+  pages={5039--5055},
+  year={2018},
+  publisher={Korean Society for Internet Information}
+}

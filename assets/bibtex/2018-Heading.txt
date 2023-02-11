@@ -1,0 +1,9 @@
+@article{li2018heading,
+  title={A heading adjustment method in wireless directional sensor networks},
+  author={Li, Wei and Huang, Changxin and Xiao, Chao and Han, Songchen},
+  journal={Computer Networks},
+  volume={133},
+  pages={33--41},
+  year={2018},
+  publisher={Elsevier}
+}

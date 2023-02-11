@@ -1,0 +1,8 @@
+@inproceedings{huang2017convolutional,
+  title={A convolutional neural network architecture for vehicle logo recognition},
+  author={Huang, Changxin and Liang, Binbin and Li, Wei and Han, Songchen},
+  booktitle={2017 IEEE International Conference on Unmanned Systems (ICUS)},
+  pages={282--287},
+  year={2017},
+  organization={IEEE}
+}

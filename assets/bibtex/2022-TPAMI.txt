@@ -1,0 +1,7 @@
+@article{huang2022reward,
+  title={Reward-Adaptive Reinforcement Learning: Dynamic Policy Gradient Optimization for Bipedal Locomotion},
+  author={Huang, Changxin and Wang, Guangrun and Zhou, Zhibo and Zhang, Ronghui and Lin, Liang},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2022},
+  publisher={IEEE}
+}
