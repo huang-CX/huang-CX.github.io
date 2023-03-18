@@ -43,6 +43,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll active" href="#home">Home</a>
           </li>
+		   <li class="nav-item">
+            <a class="nav-link js-scroll" href="#videos">Videos</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#publications">Publications</a>
           </li>
@@ -55,21 +58,6 @@
   </nav>
   <!--/ Nav End /-->
 
-  <!--/ Intro Skew Star /-->
-  <!--<div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">/-->
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <!--<h1 class="intro-title mb-4">I am Morgan Freeman</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic Designer</span><strong class="text-slider"></strong></p>-->
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-      <!--  </div>
-      </div>
-    </div>
-  </div>-->
-  <!--/ Intro Skew End /-->
   
  <!--/ Section Home Star /-->
   <section id="home" class="about-mf sect-pt4 route">
@@ -87,17 +75,9 @@
                   </div>
                 </div>
 				
-				<!-- <div class="skill-mf"> -->
-				  <!-- <p class="title-s1">Contact</p> -->
-			    <h4>Contact</h4>				  
+			    <h4 id="contact">Contact</h4>				  
 			    <p margin="50px" >Email: </span> <span>huangchx53@mail2.sysu.edu.cn</span></p>
-											  
-                <!-- <div class="skill-mf">
-                  <p class="title-s">教育背景</p>
-                   <p><span>2018.09-2023.06</span> <span>   中山大学   </span>   <span>计算机科学与技术专业 </span>   <span>博士</span></p>
-                   <p><span>2015.09-2018.06</span> <span>   四川大学   </span>   <span>信息与通信工程专业   </span>   <span>硕士</span></p>
-                   <p><span>2011.09-2015.06</span> <span>   华南理工大学</span>   <span>自动化专业          </span>     <span>学士</span></p>                 
-                </div> -->
+
               </div> 
 			  
               <div class="col-md-8">
@@ -107,23 +87,23 @@
 					  </div>
 				  <div class="content-test" >
 				    <p  class="description lead" align="justify"><!--text-align="center"-->
-                    <!-- <p class="lead"> -->
                     I am currently a PhD student at Sun Yat-sen University, advised by  <a href="http://www.linliang.net/" target="_blank" style="color: #0078FF;"><b>Prof. Liang Lin</b></a> at <a href="https://www.sysu-hcp.net/"  target="_blank" style="color: #0078FF;"><b>Human Cyber Physical Intelligence Integration Lab</b></a>. Previously, I received my Bachelor degree in Automation from South China University of Technology  in 2015 and my Master degree in Information and Communication Engineering from Sichuan University in 2021. My research interests include machine learning, deep reinforcement learning, and their applications in robotics.
                     </p>
+					
 				  </div>
                 </div>
               </div>
 			  
 			  <div  class="col-md-12" >
 				   <p></p>
-				   <h4>News</h4>
+				   <h4 id="news">News</h4>
 				   <p margin="50px" >Nov, 2022 </span> <span>I have one paper accepted to <b>TPAMI</b> 2022 ! </span></p>
 				   <p margin="50px" >Dec, 2021 </span> <span>I have one paper accepted to <b>TNNLS</b> 2021 ! </span></p>				   	
 			  </div>
 			  
 			   <div  class="col-md-12" >
 				   <p></p>
-				   <h4>Academic Service</h4>
+				   <h4 id="academic">Academic Service</h4>
 				   <HR align=center width=1020 color=#987cb9 SIZE=1/>
 				   <p margin="50px" align="justify" ><b>Invited Journal Reviewer:</b><span> IEEE Transactions on Pattern Analysis and Machine Intelligence <b>(TPAMI)</b>, IEEE Transactions on Neural Networks and Learning Systems <b>(TNNLS)</b>, IEEE Transactions on Cybernetics <b>(TCYB)</b>, IEEE Transactions on Human-Machine Systems <b>(THMS)</b>, Computer Networks.</span></p>				   	
 			       <p margin="50px" align="justify" ><b>Invited Conference Reviewer:</b><span> IEEE International Conference on Robotics and Automation <b>(ICRA, 2022).</b></span></p>
@@ -131,11 +111,8 @@
 			   			   		
 			  		
 			  <div  class="col-md-12" >							   
-				 <!-- <div class="progress">
-				    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-				  </div> -->
 				  <p></p>
-				  <h4>Selected Honors & Awards</h4>
+				  <h4 id="honors">Selected Honors & Awards</h4>
 				  <HR align=center width=1020 color=#987cb9 SIZE=1/>
 				  <div class="content-test">				  
 					<p class="s-description text-center">
@@ -146,12 +123,65 @@
 					</p>   					
 				  </div>
 			  </div>	
-						
+				
+
+              <div  class="col-sm-12" >	
+			  <p></p>
+			  <h4 id="videos">Videos </h4> 
+			  <HR align=center width=1020 color=#987cb9 SIZE=1/>
+				
+				<div class="container">
+					 <div class="row">
+					    <div class="col-sm-6 col-md-5"> 
+							<p class="content-test"  align="justify" style="margin-bottom: 12px;"><i><strong>Reward-Adaptive Reinforcement Learning: Dynamic Policy Gradient Optimization for Bipedal Locomotion (T-PAMI 2022)</strong></i></p>							
+							<p  class="content-test"  align="justify" style="margin-bottom: 12px;">
+							It's challenging to control non-statically bipedal robots due to complex dynamics and multi-criterion optimization.  A scalar reward function may be insufficient for DRL approaches. The proposed reward-adaptive RL method called hybrid and dynamic policy gradient optimization outperforms summed-up-reward approaches and can transfer to physical robots.
+							</p>
+						</div>
+			 	     
+						<div class="col-sm-6 col-md-7">
+							<iframe width="580" height="350" src="https://www.youtube.com/embed/YlznGvG2xAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>		
+                    </div> 					 
+			    </div>
+				<p></p>
+			    <p></p>
+				<p></p>
+			    <p></p>
+				
+				<div class="container">
+					 <div class="row">
+					    <div class="col-sm-6 col-md-5"> 
+							<p class="content-test"  align="justify" style="margin-bottom: 12px;"><i><strong>Deductive Reinforcement Learning for Visual Autonomous Urban Driving Navigation (TNNLS 2021)</strong></i></p>
+							<p  class="content-test"  align="justify" style="margin-bottom: 12px;">
+							This work presents a new approach called <b>DeRL</b> for vision-based autonomous urban driving navigation. The approach incorporates a deduction reasoner (DR) to predict future transitions and assess the predicted trajectory for more reliable decision-making. Additionally, a semantic encoder module (SEM) is included to extract driving representations from raw images. The proposed DeRL outperforms existing model-free RL approaches on the CARLA benchmark.
+							</p>
+						</div>
+			 	     
+						<div class="col-sm-6 col-md-7">
+							<iframe width="580" height="350" src="https://www.youtube.com/embed/aZ4BtJmvNH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>		
+                    </div> 					 
+			    </div>
+				<p></p>
+			    <p></p>
+				<p></p>
+			    <p></p>
+				
+				
+				</div>
+				<p></p>
+			    <p></p>
+				
+
+			  
 			  <div  class="col-sm-12" >	
 			  <p></p>
 			  <h4 id="publications">Selected Publications <a href="https://scholar.google.com/citations?user=I0Lmwq0AAAAJ&hl=zh-CN&oi=ao"  style="color: #5500ff;">(Full List)</a></h4> 
 			  <HR align=center width=1020 color=#987cb9 SIZE=1/>
-
+				
+			
+			 
 			<div class="col-sm-12">
 			     <div class="row">
 			 	   <div class="col-sm-6 col-md-3">
@@ -345,614 +375,7 @@
   </section>
  <!--/ Section Home End /-->
  
-  <!--/ Section Publications Star /-->
-  <!-- <section id="publications" class="services-mf sect-pt4 route ">
-  <div class="container">
-      <div class="row">
-        <div class="col-sm-12">         
-            <h2>  Publications </h2>           
-        </div>
-      </div>
-	  
-	<div class="box-shadow-full">	
-			<div class="col-sm-12">
-			    <div class="row">
-				   <div class="col-sm-6 col-md-3">
-					 <div class="about-img">
-					   <img src="img/T-PAMI111.png"  width="200px" height="120px"   > 
-					 </div>
-				   </div>
-				   <div class="col-sm-6 col-md-9"> 
-				 <div class="about-info">
-						<p  align="left" >
-						<b> Reward-Adaptive Reinforcement Learning: Dynamic Policy Gradient Optimization for Bipedal Locomotion. </b>
-						</p>
-						<p  align="left"><i><strong>Changxin Huang</strong>, Guangrun Wang, Zhibo Zhou, Ronghui Zhang, and Liang Lin.</i></p>
-						<p  align="left">IEEE Transactions on Pattern Analysis and Machine Intelligence <b>(T-PAMI)</b>, 2022. (JCR Q1, IF: 24.3).</p> 	 
-					 </div>
-				 </div> 
-				</div>
-	           </div>
-			   <p></p>
-			<p></p>
-            <div class="col-sm-12">
-            		<div class="row">
-					   <div class="col-sm-6 col-md-3">
-						 <div class="about-img">
-						   <img src="img/TNNLS.png"   width="200px" height="120px" >
-						 </div>
-					   </div>
-            			<div class="col-sm-6 col-md-9"> 
-            			   <div class="about-info">
-							   <p  class="content-test" align="left">
-							   <b> Deductive Reinforcement Learning for Visual Autonomous Urban Driving Navigation. </b>
-							   </p>
-							   <p align="left"><i><strong>Changxin Huang</strong>, Ronghui Zhang, Meizi Ouyang, Pengxu Wei, Junfan Lin, Jiang Su, Liang Lin.</i></p>
-                               <p align="left">
-                                IEEE Transactions on Neural Networks and Learning Systems <b>(TNNLS)</b>, 2021. (JCR Q1, IF: 14.3).
-                              </p>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-			<p></p>
-			<p></p>
-        	<div class="col-sm-12">
-        		<div class="row">
-					<div class="col-sm-6 col-md-3">
-						<div class="about-img">
-						   <img src="img/JCR.png"   width="200px" height="120px" >
-						 </div>
-					   </div>
-					   <div class="col-sm-6 col-md-9"> 
-						 <div class="about-info">	
-							 <p  class="content-test" align="left">
-							 <b> A heading adjustment method in wireless directional sensor networks.ScienceDirect. </b>
-							 </p>
-							 <p align="left"><i>Wei Li, <strong>Changxin Huang</strong>, Chao Xiao, Songchen Han.</i></p>
-							 <p align="left"> Computer Networks, 2018, 133:33-41. (JCR Q1, IF: 5.49） </p>
-						 </div>
-						</div>
-        	      </div>
-            </div>
-			<p></p>
-			<p></p>
-			<div class="col-sm-12">
-				<div class="row">
-					<div class="col-sm-6 col-md-3">
-						<div class="about-img">
-						<img src="img/SCI_2018_NovelImageDehazing.png"   width="200px" height="120px" >
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-9"> 
-						<div class="about-info">
-							<p  class="content-test" align="left">
-							<b> A Novel Image Dehazing Algorithm Based on Dual-tree Complex Wavelet Transform.</b>
-							</p>							 
-							<p align="left"><i><strong>Changxin Huang</strong>, Wei Li, et al.</i></p>
-							<p> KSII Transactions on Internet and Information Systems. Vol. 12, No. 10, October 30, 2018. </p>
-						</div>
-					 </div>
-				</div>
-            </div>
-			<p></p>
-			<p></p>
-			<div class="col-sm-12">
-				<div class="row">
-				   <div class="col-sm-6 col-md-3">
-					 <div class="about-img">
-					   <img src="img/SCI_2018_Potential.png"   width="200px" height="120px" >
-					 </div>
-				   </div>
-				   <div class="col-sm-6 col-md-9"> 
-					   <div class="about-info">
-						<p  class="content-test" align="left">
-						<b> Potential field method for persistent surveillance of multiple unmanned aerial vehicle sensors. </b>
-						</p>								
-						 <p align="left"><i><strong>Changxin Huang</strong>, Wei Li, et al.</i></p>
-						 <p>International Journal of Distributed Sensor Networks, 2018, 14(1):155014771875506. </p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<p></p>
-			<p></p>
-			<div class="col-sm-12">
-				<div class="row">
-				   <div class="col-sm-6 col-md-3">
-					 <div class="about-img">
-					   <img src="img/EI_2018.png"   width="200px" height="120px" >
-					 </div>
-				   </div>
-				   <div class="col-sm-6 col-md-9"> 
-					 <div class="about-info">
-						 <p class="content-test" align="left"><b> 一种改进的基于近红外图像的去雾方法. </b></p>								 
-						 <p align="left"><i> 韩松臣, <strong>黄畅昕</strong>, 程鹏.</i></p>
-						 <p>工程科学与技术, 2018, 50(2):6. </p>
-					 </div>
-					</div>
-				</div>
-			</div>
-			<p></p>
-			<p></p>
-			<div class="col-sm-12">
-				<div class="row">
-				   <div class="col-sm-6 col-md-3">
-					 <div class="about-img">
-					   <img src="img/EI_2017.png"   width="200px" height="120px" >
-					 </div>
-				   </div>
-				   <div class="col-sm-6 col-md-9"> 
-						<div class="about-info">
-							<p class="content-test" align="left"><b>A Convolutional Neural Network Architecture for Vehicle Logo Recognition.</b></p>
-							<p><i><strong>Changxin Huang</strong>, Wei Li, Songchen Han.</i></p>
-							<p>IEEE International Conference on Unmanned Systems.Oct.2017.Beijing, China. </p>
-						</div>
-					</div>
-				</div>
-			</div>	
-	  </div>
-    </div>
-    </div>
-  </section> -->
-  <!--/ Section Publications End /-->
   
-  
-  
-  
-  
-  
-  
-<!-- 
-  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">450</p>
-              <span class="counter-text">WORKS COMPLETED</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">15</p>
-              <span class="counter-text">YEARS OF EXPERIENCE</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-people"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">550</p>
-              <span class="counter-text">TOTAL CLIENTS</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">36</p>
-              <span class="counter-text">AWARD WON</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  
-  
-  
-  <!--/ Section Portfolio Star /-->
-  <!-- <section id="work" class="portfolio-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Works
-            </h3>
-            <p class="subtitle-a">
-				参与的科研项目包括1项国家重点研发计划，2项国家自然基金-面上项目，1项广东省自然基金-面上项目
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-1.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-1.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">基于强化学习的足式机器人运动控制研究</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">？？</span> / <span class="w-date">2020.03  —2021. 08</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-2.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-2.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">基于视觉的城市自动驾驶研究</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">？？？</span> / <span class="w-date">2019.06  —2020. 03</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-3.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">城市车辆出行轨迹预测，终点预测</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">???</span> / <span class="w-date">2019.12  —2020. 05 </span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-4.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-4.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">基于视觉标签技术的机场场面非协作目标感知关键技术研究</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">?? </span> / <span class="w-date">2015.09  —2018. 06 </span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-5.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-5.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">资源受限的视频传感器网络目标跟踪定位及一致性估计问题研究</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">？？？</span> / <span class="w-date">2016.06 —2017.06</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>       
-      </div>
-    </div>
-  </section> -->
-  <!--/ Section Portfolio End /-->
-
-  <!--/ Section Testimonials Star /-->
-  <!-- <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="testimonial-mf" class="owl-carousel owl-theme">
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Xavi Alonso</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Marta Socrate</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit.
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-  <!--/ Section Blog Star /-->
-  <!-- <section id="blog" class="blog-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Blog
-            </h3>
-            <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Travel</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-2.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Web Design</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Web Design</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                a pellentesque nec,
-                egestas non nisi.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Morgan Freeman</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!--/ Section Blog End /-->
-
-  <!--/ Section Contact-Footer Star /-->
-  <!-- <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Send Message Us
-                    </h5>
-                  </div>
-                  <div>
-                      <form action="" method="post" role="form" class="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validation"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Get in Touch
-                    </h5>
-                  </div>
-                  <div class="more-info">
-                    <p class="lead">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                      expedita aperiam aliquid at.
-                      Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                      mollitia inventore?
-                    </p>
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                      <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                      <li><span class="ion-email"></span> contact@example.com</li>
-                    </ul>
-                  </div>
-                  <div class="socials">
-                    <ul>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">Copyright &copy; 2020.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
-              <div class="credits"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </section> -->
-  <!--/ Section Contact-footer End /-->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <div id="preloader"></div>

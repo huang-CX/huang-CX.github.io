@@ -1257,3 +1257,33 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+/*======================================
+//--//-->   Projects
+======================================*/
+
+
+.text {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  flex: 1;
+  height:100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.video video {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+}
